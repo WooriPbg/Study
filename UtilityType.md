@@ -134,7 +134,7 @@ type Record<K extends keyof any, T> = {
 
 5. Pick<Type, Keys>
 
-Type에서 프로퍼티 Keys의 집합을 선택해 타입을 생성합니다.
+Type에서 프로퍼티 Keys의 집합을 선택해 타입을 생성한다.
 
 예시 코드
 ```ts
@@ -154,7 +154,6 @@ const todo: TodoPreview = {
 todo;
 ```
 
-
 실제 내부 구현코드
 ```ts
 /**
@@ -166,7 +165,7 @@ type Pick<T, K extends keyof T> = {
 ```
 
 6. Omit<Type, Keys>
-Type에서 프로퍼티 Keys의 집합을 선택해 타입을 생성한다.
+Type에서 선택한 모든 속성을 제거하여 타입을 생성한다.
 
 예시 코드
 ```ts

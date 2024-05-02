@@ -31,7 +31,7 @@ let mySquare = createSquare({ colour: "red", width: 100 });
 let mySquare = createSquare({ width: 100, opacity: 0.5 } as SquareConfig);
 ```
 
-2.인덱스 서명(Index Signature)
+2. 인덱스 서명(Index Signature)
 
 예시 코드
 ```ts
